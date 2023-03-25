@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5590" started-at="2016-12-27T05:11:41Z" finished-at="2016-12-27T05:11:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5590" started-at="2016-12-27T05:11:41Z" finished-at="2016-12-27T05:11:46Z">
+      <class name="com.qedge.tests.BankerLoginDDT">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qedge.tests.BankerLoginDDT@4a287dba]" name="launchApp" is-config="true" duration-ms="807" started-at="2016-12-27T10:41:40Z" finished-at="2016-12-27T10:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="bankerLoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qedge.tests.BankerLoginDDT@4a287dba]" name="bankerLoginDDT" duration-ms="2388" started-at="2016-12-27T10:41:42Z" data-provider="bankerlogindata" finished-at="2016-12-27T10:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madhapur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[david]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankerLoginDDT -->
+        <test-method status="PASS" signature="bankerLoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qedge.tests.BankerLoginDDT@4a287dba]" name="bankerLoginDDT" duration-ms="1015" started-at="2016-12-27T10:41:44Z" data-provider="bankerlogindata" finished-at="2016-12-27T10:41:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kukatpally]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankerLoginDDT -->
+        <test-method status="PASS" signature="bankerLoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qedge.tests.BankerLoginDDT@4a287dba]" name="bankerLoginDDT" duration-ms="953" started-at="2016-12-27T10:41:45Z" data-provider="bankerlogindata" finished-at="2016-12-27T10:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ameerpet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Richards]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankerLoginDDT -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qedge.tests.BankerLoginDDT@4a287dba]" name="closeApp" is-config="true" duration-ms="16" started-at="2016-12-27T10:41:46Z" finished-at="2016-12-27T10:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.qedge.tests.BankerLoginDDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
